@@ -32,7 +32,7 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 587
           username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secret.EMAIL_PASSWORD }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
           subject: Github Actions - Build failure
           body: |
             The recent build has failed.
